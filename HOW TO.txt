@@ -1,0 +1,12 @@
+open folder
+cd and drag the folder to git bash
+git config --global core.autocrlf false
+git init
+git add.
+git commit -m ""
+copy repository name
+https://github.com/cheatdaycamp/HTMLPaint.git
+git remote add origin https://github.com/cheatdaycamp/HTMLPaint.git
+git remote -v verifies
+
+
