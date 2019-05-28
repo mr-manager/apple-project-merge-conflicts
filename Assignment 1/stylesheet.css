@@ -165,3 +165,107 @@ body{
     flex-direction: column;
     margin-bottom: 20px
 }
+.terms.stripe {
+    background-color: rgb(242, 242, 242);
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    padding-left: 10%;
+    padding-right: 10%;
+    list-style: none;
+    padding-top: 17px;
+    margin-bottom: 0px;
+}
+.altfooter{
+    background-color: rgb(242, 242, 242);
+    font-size: 12px;   
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: rgb(85, 85, 85);
+    padding-left: 10%;
+    padding-top: 20px;
+}
+.altfooter .dropdown .plus{
+    right: 0px;
+}
+@media screen and (min-width: 720px) {
+    .altfooter {
+        
+        display: none;
+    }
+}
+
+.footer .stripe {
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    float: left;
+    vertical-align: top;
+}
+
+.footer .container {
+    vertical-align: top;
+    height: 400px;
+    width: 80%;
+    background-color: rgb(242, 242, 242);
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+@media screen and (max-width: 720px) {
+    .footer {
+        display: none;
+    }
+}
+.footer .container .column {
+    display: inline-block;
+    width: 19%;
+    color: rgb(85, 85, 85);
+    font-size: 1em;
+    list-style: none;
+    font-weight: 400;
+    vertical-align: top;
+}
+
+
+.footer .container .column:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.toe.stripe {
+    background-color: rgb(242, 242, 242);
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.toe.stripe .blue {
+    color: rgb(0, 112, 201);
+}
+
+.toe.stripe .blue:hover {
+    text-decoration: underline;
+}
+
+.toe.stripe .lastline .reserved {
+    padding-right: 30px;
+}
+
+.toe.stripe .lastline .legal {
+    color: rgb(85, 85, 85);
+}
+
+.toe.stripe .lastline .legal:hover {
+    text-decoration: underline;
+}
+
+.toe.stripe .lastline .usa {
+    padding-left: 250px;
+}
